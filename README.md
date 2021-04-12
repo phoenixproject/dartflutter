@@ -1,4 +1,4 @@
-# flutterexamples
+# Flutter Examples
 Exemplos em Flutter em geral
 
 ##### [Referência para formatação de conteúdo](https://docs.github.com/pt/github/writing-on-github/basic-writing-and-formatting-syntax)<br/>
@@ -56,7 +56,7 @@ class LikesWidgetState extends State<LikesWidget>{
 	}
 	
 	@override
-	Widget buld(BuildContext inContext){
+	Widget build(BuildContext inContext){
 		return Row(
 			children : [
 				RaisedButton(
@@ -68,3 +68,10 @@ class LikesWidgetState extends State<LikesWidget>{
 	}
 }
 ```
+
+###### Observações
+
+O método *build* visto acima recebe como argumento o estado atual e retorna
+uma representação visual do widget que incorpora este estado. Quando o estado
+muda, o widget "reage" à mudança, sendo reconstruído por uma nova chamada a buid(),
+com a passagem do novo estado para o método.
