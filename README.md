@@ -75,3 +75,33 @@ O método *build* visto acima recebe como argumento o estado atual e retorna
 uma representação visual do widget que incorpora este estado. Quando o estado
 muda, o widget "reage" à mudança, sendo reconstruído por uma nova chamada a buid(),
 com a passagem do novo estado para o método.
+
+
+# Dart Examples
+Dart examples from SON
+
+#### Para configurar seu ambiente Dart/Flutter
+
+##### [Como resolver problemas de configuração do Flutter](https://mastigado.wordpress.com/2020/12/13/como-resolver-problemas-de-configuracao-do-flutter/)<br/>
+
+#### Projeto Básico - Hello World
+
+##### [Hello World básico em Dart](https://github.com/phoenixproject/dartexamples/blob/master/01/01_helloword.dart)<br/>
+
+```dart
+// Declaração de inialização de variáveis e exibindo (de forma concactenada) seu conteúdo.
+void main()
+{
+	String nome = 'Baguncinha';
+	print('Hello ' +  nome);
+}
+```
+
+#### Para executar seu primeiro projeto/arquivo Dart
+
+- 1 Abra o prompt do Windows ou terminal do Linux;
+- 2 Execute o aplicativo flutter_console.bat;
+- 3 Vá até o local onde está o aplicativos que você escreveu e execute-o com o comando:
+
+```dart
+dart nome_do_seu_aplicativo.dart
