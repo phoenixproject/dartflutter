@@ -41,6 +41,8 @@ Composto por:
 - SDK (Software Development Kit): Ferramentas para compilar seu código para código nativo e desenvolver com facilidade;
 - Framework Widget Libray: Componente de UI reutilizáveis (widgets), funções utilitárias, pacotes;
 
+O Flutter utiliza por "baixo dos panos" uma engine 2D de jogos para renderizar os pixels na tela.
+
 ## Widgets
 
 #### StatelessWidget
