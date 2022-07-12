@@ -5,7 +5,7 @@ Exemplos em Flutter em geral
 
 **************************************************************
 
-### Classes Padrão de Widgets que são herdadas (estendidas) no Flutter comumente
+## Dart
 
 #### StatelessWidget
 
@@ -105,3 +105,11 @@ void main()
 
 ```dart
 dart nome_do_seu_aplicativo.dart
+```
+
+## Flutter
+
+Composto por:
+- SDK (Software Development Kit): Ferramentas para compilar seu código para código nativo e desenvolver com facilidade;
+- Framework Widget Libray: Componente de UI reutilizáveis (widgets), funções utilitárias, pacotes;
+
