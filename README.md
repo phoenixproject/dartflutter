@@ -47,6 +47,21 @@ Composto por:
 
 O Flutter utiliza por "baixo dos panos" uma engine 2D de jogos para renderizar os pixels na tela.
 
+#### Comandos Flutter
+
+###### Para criar um projeto Flutter a partir do console
+
+```dart
+flutter create nome_projeto
+```
+
+###### Para rodar o projeto criado
+
+```dart
+cd nome_projeto
+flutter run
+```
+
 #### Widgets
 
 ##### StatelessWidget
