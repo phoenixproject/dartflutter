@@ -64,7 +64,7 @@ flutter run
 
 #### Estrutura de um projeto Flutter
 
-![Alt text](https://github.com/phoenixproject/dartflutter/blob/master/_MEDIA/01_conf_projeto_flutter.png?raw=true "Estrutura de um projeto Flutter")
+![Alt text](https://github.com/phoenixproject/dartflutter/blob/master/__MEDIA/01_conf_projeto_flutter.png?raw=true "Estrutura de um projeto Flutter")
 
 - Diretório .dart_tool: é criado a partir de um pacote chamado build runner e sempre que ele vai compilando os arquivos vai sendo incrementado o diretório baseado em algumas ferramentas. Ele é basicamente para você ter o build do seu código feito em Dart dentro desta pasta. Esta pasta é um daqueles diretórios que são reconstruídos sempre que um novo código é compilado e não vai para um repositório git.
 - Diretório .idea/arquivo extensão .iml: esta pasta existe porque o Android Studio é uma versão do Intelij Idea modificado e tanto este diretório quanto o arquivo de extensão .iml fazem referência a isso e o próprio arquivo .gitignore já por padrão ignora estes itens.
