@@ -1,20 +1,22 @@
-# Flutter Examples
-Exemplos em Flutter em geral
-
 ##### [Referência para formatação de conteúdo](https://docs.github.com/pt/github/writing-on-github/basic-writing-and-formatting-syntax)<br/>
 
 **************************************************************
-
-## Dart Examples
-Dart examples from SON
 
 #### Para configurar seu ambiente Dart/Flutter
 
 ##### [Como resolver problemas de configuração do Flutter](https://mastigado.wordpress.com/2020/12/13/como-resolver-problemas-de-configuracao-do-flutter/)<br/>
 
-#### Projeto Básico - Hello World
+**************************************************************
+
+### Projetos em Dart
 
 ##### [Hello World básico em Dart](https://github.com/phoenixproject/dartexamples/blob/master/01/01_helloword.dart)<br/>
+
+### Projetos em Flutter
+
+**************************************************************
+
+### Dart
 
 ```dart
 // Declaração de inialização de variáveis e exibindo (de forma concactenada) seu conteúdo.
@@ -35,7 +37,9 @@ void main()
 dart nome_do_seu_aplicativo.dart
 ```
 
-## Flutter
+**************************************************************
+
+### Flutter
 
 Composto por:
 - SDK (Software Development Kit): Ferramentas para compilar seu código para código nativo e desenvolver com facilidade;
