@@ -62,6 +62,27 @@ cd nome_projeto
 flutter run
 ```
 
+#### Estrutura de um projeto Flutter
+
+![Alt text](https://github.com/phoenixproject/dartflutter/blob/master/_MEDIA/01_conf_projeto_flutter.png?raw=true "Estrutura de um projeto Flutter")
+
+- Diretório .dart_tool: é criado a partir de um pacote chamado build runner e sempre que ele vai compilando os arquivos vai sendo incrementado o diretório baseado em algumas ferramentas. Ele é basicamente para você ter o build do seu código feito em Dart dentro desta pasta. Esta pasta é um daqueles diretórios que são reconstruídos sempre que um novo código é compilado e não vai para um repositório git.
+- Diretório .idea/arquivo extensão .iml: esta pasta existe porque o Android Studio é uma versão do Intelij Idea modificado e tanto este diretório quanto o arquivo de extensão .iml fazem referência a isso e o próprio arquivo .gitignore já por padrão ignora estes itens.
+- Diretório android: é a pasta que guarda todos os arquivos do projeto em Android ;
+- Diretório build: é onde o projeto compilado/executável é criado e está apto a ser executado nas plataformas compatíveis;
+- Diretório ios: é onde fica o projeto para XCode responsável pelo IOS assim como existe uma pasta Android só pra códigos em Android;
+- Diretório lib: é o local onde são criados os widgets, patterns, toda a organização dos códigos Dart e é onde está o arquivo Main.dart;
+- Diretório test: define-se por ser o local possível para fazer teste como TDD por exemplo;
+- Arquivo .gitignore: possuí uma pré configuração de coisas que não devem ser enviadas para o git ou Github;
+- Arquivo .metadata: que é um arquivo gerenciado internamente pelo Flutter;
+- Arquivo .packages: sempre terá novas dependências assim que forem sendo acrescentadas no projeto;
+- Arquivo pubspec.lock: é gerado a partir do conteúdo inserido no arquivo pubspec.yaml;
+- Arquivo pubspec.yaml: é um arquivo que contém nome, descrição do projeto, versão de sdk, informações sobre dependências, informações de diretórios de assets, configurações do projeto em si;
+- Arquivo README.md: é o arquivo padrão do Github que é usado para exibir a definição do repositório;
+
+
+
+
 #### Widgets
 
 ##### StatelessWidget
