@@ -27,7 +27,7 @@ void main()
 }
 ```
 
-#### Para executar seu primeiro projeto/arquivo Dart
+##### Para executar seu primeiro projeto/arquivo Dart
 
 - 1 Abra o prompt do Windows ou terminal do Linux;
 - 2 Execute o aplicativo flutter_console.bat;
@@ -47,9 +47,9 @@ Composto por:
 
 O Flutter utiliza por "baixo dos panos" uma engine 2D de jogos para renderizar os pixels na tela.
 
-## Widgets
+#### Widgets
 
-#### StatelessWidget
+##### StatelessWidget
 
 Um widget que estende  StatelessWidget nunca muda e é chamado de widget stateless
 porque não tem estado. Itens como os widgets Icon, que exibem pequenas imagens,
@@ -67,7 +67,7 @@ class MyTextWidget extends StatelessWidget {
 }
 ```
 
-#### StatefulWidget
+##### StatefulWidget
 
 Por outrado lado, a classe base StatefulWidget traz a noção de estado, isto é, muda
 de alguma forma quando o usuário interage com ela. Um **CheckBox**, um Slider,
