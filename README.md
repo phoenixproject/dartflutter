@@ -41,11 +41,16 @@ dart nome_do_seu_aplicativo.dart
 
 ### Flutter
 
-Composto por:
+**É composto por:**
+
 - SDK (Software Development Kit): Ferramentas para compilar seu código para código nativo e desenvolver com facilidade;
 - Framework Widget Libray: Componente de UI reutilizáveis (widgets), funções utilitárias, pacotes;
 
-O Flutter utiliza por "baixo dos panos" uma engine 2D de jogos para renderizar os pixels na tela.
+**Definições a respeito do Flutter**
+
+- O Flutter é um componente baseado completamente em Widgets, ou seja, componentes visuais.
+- Os componentes do Flutter são baseados em classe, que em outras palavras quer dizer que ele se aproveita da estrutura da classe para parametrizar seus atributos e herdar o comportamento de classes Widget.
+- O Flutter utiliza por "baixo dos panos" uma engine 2D de jogos para renderizar os pixels na tela.
 
 #### Comandos Flutter
 
@@ -80,8 +85,31 @@ flutter run
 - Arquivo pubspec.yaml: é um arquivo que contém nome, descrição do projeto, versão de sdk, informações sobre dependências, informações de diretórios de assets, configurações do projeto em si;
 - Arquivo README.md: é o arquivo padrão do Github que é usado para exibir a definição do repositório;
 
+#### Definições em projeto básico do Flutter
 
+```dart
+void main() {
+  runApp(const MyApp());
+}
 
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+    );
+  }
+}
+```
+
+**Arquivo Main.dart**
+O código acima trata-se do arquivo __Main.dart__ de um projeto básico do Flutter e esse arquivo é o responsável por chamar a aplicação. A porta de entrada para uma aplicação Flutter é a função __main()__ que executa o método __runApp__ que recebe por parâmetro um __Widget__ que é a classe __MyApp() (a classe MyApp herda de StatelesWidget e por isso torna-se um Widget).
 
 #### Widgets
 
