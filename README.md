@@ -39,7 +39,7 @@
 void main()
 {
 	String nome = 'Baguncinha';
-	print('Hello ' +  nome);
+	print('Hello ' +  nome); 
 }
 ```
 
@@ -51,6 +51,12 @@ void main()
 
 ```dart
 dart nome_do_seu_aplicativo.dart
+```
+
+##### Para ver a versão de seu Dart no terminal/console
+
+```dart
+dart --version
 ```
 
 **************************************************************
