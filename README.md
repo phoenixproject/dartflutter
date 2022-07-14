@@ -14,7 +14,7 @@
 
 - [Hello World básico](https://github.com/phoenixproject/dartflutter/blob/master/_DART/DART_01/01_helloword.dart)<br/>
 - [Variáveis](https://github.com/phoenixproject/dartflutter/blob/master/_DART/DART_01/02_variaveis.dart)<br/>
-- [Variáveis e Listas(https://github.com/phoenixproject/dartflutter/blob/master/_DART/DART_01/03_variaveislistas.dart)<br/>
+- [Variáveis e Listas](https://github.com/phoenixproject/dartflutter/blob/master/_DART/DART_01/03_variaveislistas.dart)<br/>
 - [Variáveis Dinâmicas](https://github.com/phoenixproject/dartflutter/blob/master/_DART/DART_01/04_variaveisdinamicas.dart)<br/>
 - [Estruturas de Controle](https://github.com/phoenixproject/dartflutter/blob/master/_DART/DART_01/05_estruturasdecontrole.dart)<br/>
 - [Funções](https://github.com/phoenixproject/dartflutter/blob/master/_DART/DART_01/06_funcoes.dart)<br/>
