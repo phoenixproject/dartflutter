@@ -38,7 +38,7 @@
 
 - A função __main()__ no Dart tem de ter sintaxe minúscula e é a porta de entrada de uma aplicação Flutter.
 
-##### Para declarar variáveis em Dart
+##### Para visualizar um resumo básico do Dart
 
 ```dart
 // Declarando função misturando parâmetros posicionais e nomeados
